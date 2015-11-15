@@ -1,0 +1,6 @@
+#ldapadd -D cn=admin,dc=zariga,dc=com -w password -f user.ldif 
+dn: ou=Users,dc=zariga,dc=com
+description: My Organization Users come here
+objectclass: top
+objectclass: organizationalUnit
+ou: Users
